@@ -1,7 +1,7 @@
 {
-    "name": "leodisarli/disarli-laravel-front",
+    "name": "leodisarli/disarli-laravel-refactory-front",
     "type": "project",
-    "description": "Laravel Front",
+    "description": "Laravel front with a fallback router to maintain legacy project side-by-side when refactoring",
     "keywords": [
         "framework",
         "laravel",
@@ -38,8 +38,6 @@
             "App\\": "app/"
         },
         "classmap": [
-            "database/seeds",
-            "database/factories"
         ]
     },
     "autoload-dev": {
